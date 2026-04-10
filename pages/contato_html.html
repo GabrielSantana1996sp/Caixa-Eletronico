@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="../assets/css/caixa_eletronico_css.css">
+<title>caixa_eletronico</title>
+</head>
+<body>
+
+<h1> Contato com o dev </h1>
+    
+<p>Email: <a href="mailto:gabrielsantanati@outlook.com">gabrielsantanati@outlook.com</a></p>
+
+    <p>Dúvidas e entrevistas estou a disposição!</p>
+<p> 
+        <input type="button" value="Sobre" id="btnSobre"> 
+        <input type="button" value="index" id="btnCaixaEletronico"> 
+    </p>
+
+    <script>
+        
+        document.getElementById('btnSobre').addEventListener('click', function() {
+            window.location.href = '../pages/sobre_html.html';
+        });
+
+        document.getElementById('btnCaixaEletronico').addEventListener('click', function() {
+            window.location.href = '../index.html';
+        });
+    </script>
+</body>
+</html>
